@@ -11,6 +11,9 @@ from sklearn.neighbors import KNeighborsClassifier
 
 app = Flask(__name__)
 
+@app.route("/test/")
+def hello():
+    return "Hello World!"
 
 @app.route("/train/", methods=['POST'])
 def train():
