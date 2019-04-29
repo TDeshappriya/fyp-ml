@@ -3,7 +3,6 @@ from flask import Flask,render_template,request,url_for,jsonify
 #EDA Packages
 import pyodbc
 import pandas as pd
-import numpy as np 
 from sklearn import metrics
 
 # ML Packages
