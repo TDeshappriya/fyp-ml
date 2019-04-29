@@ -17,7 +17,7 @@ def hello():
 
 @app.route("/train/", methods=['POST'])
 def train():
-    conn = pyodbc.connect('Driver={SQL Server};'
+    conn = pyodbc.connect('Driver={ODBC Driver 13 for SQL Server};'
                       'Server=fyp2019.database.windows.net;'
                       'Database=fyp;'
                       'UID=test;PWD=login@123') 
