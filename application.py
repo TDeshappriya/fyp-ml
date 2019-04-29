@@ -11,7 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 app = Flask(__name__)
 
-@app.route("/test/")
+@app.route("/test")
 def hello():
     return "Hello World!"
 
